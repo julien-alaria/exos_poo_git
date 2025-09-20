@@ -32,7 +32,7 @@ class Cylindre implements Volume {
     }
 
     public function getVolume(): float {
-        return pi() * pow($this->rayopn, 2) * $this->hauteur;
+        return pi() * pow($this->rayon, 2) * $this->hauteur;
     }
 
     public function getDimensions(): string {
